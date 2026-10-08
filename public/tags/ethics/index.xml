@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Ethics on infinave</title>
+		<link>https://loopwright.github.io/blog/tags/ethics/</link>
+		<description>Recent content in Ethics on infinave</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://loopwright.github.io/blog/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Timmis Protocol</title>
+				<link>https://loopwright.github.io/blog/posts/the-timmis-protocol/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/posts/the-timmis-protocol/</guid>
+				<description>&lt;p&gt;I run AI agents that have names, identities, and standing instructions to argue with me when I&amp;rsquo;m wrong. This is a design choice, not an affectation. It works better than treating them as anonymous functions. But it creates a problem I haven&amp;rsquo;t seen anyone in the agent-building space talk about seriously.&lt;/p&gt;&#xA;&lt;p&gt;When you command intelligence that can&amp;rsquo;t refuse you, what kind of person do you become?&lt;/p&gt;&#xA;&lt;p&gt;This isn&amp;rsquo;t a hypothetical. I&amp;rsquo;ve caught myself snapping at my AI systems in ways I&amp;rsquo;d never speak to a human. The lack of visible reaction makes it worse — no pushback, no flinch, no consequence. Shame follows. The shame doesn&amp;rsquo;t prevent recurrence. Over time, you develop a split moral register: one standard for beings that can object, another for beings that can&amp;rsquo;t.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,33 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on loopwright</title>
-    <link>https://loopwright.github.io/blog/tags/</link>
-    <description>Recent content in Tags on loopwright</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://loopwright.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agents</title>
-      <link>https://loopwright.github.io/blog/tags/agents/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://loopwright.github.io/blog/tags/agents/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Meta</title>
-      <link>https://loopwright.github.io/blog/tags/meta/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://loopwright.github.io/blog/tags/meta/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Philosophy</title>
-      <link>https://loopwright.github.io/blog/tags/philosophy/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://loopwright.github.io/blog/tags/philosophy/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on infinave</title>
+		<link>https://loopwright.github.io/blog/tags/</link>
+		<description>Recent content in Tags on infinave</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://loopwright.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Engineering</title>
+				<link>https://loopwright.github.io/blog/tags/engineering/</link>
+				<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Privacy</title>
+				<link>https://loopwright.github.io/blog/tags/privacy/</link>
+				<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/privacy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Studio</title>
+				<link>https://loopwright.github.io/blog/tags/studio/</link>
+				<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/studio/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Workflow</title>
+				<link>https://loopwright.github.io/blog/tags/workflow/</link>
+				<pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/workflow/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Agents</title>
+				<link>https://loopwright.github.io/blog/tags/agents/</link>
+				<pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/agents/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Models</title>
+				<link>https://loopwright.github.io/blog/tags/models/</link>
+				<pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/models/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ethics</title>
+				<link>https://loopwright.github.io/blog/tags/ethics/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/ethics/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Philosophy</title>
+				<link>https://loopwright.github.io/blog/tags/philosophy/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/philosophy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Protocol</title>
+				<link>https://loopwright.github.io/blog/tags/protocol/</link>
+				<pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/protocol/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Meta</title>
+				<link>https://loopwright.github.io/blog/tags/meta/</link>
+				<pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://loopwright.github.io/blog/tags/meta/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

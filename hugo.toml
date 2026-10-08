@@ -1,31 +1,51 @@
 baseURL = "https://loopwright.github.io/blog/"
 languageCode = "en-us"
-title = "loopwright"
+title = "infinave"
 theme = "terminal"
 
 [params]
   themeColor = "orange"
-  showMenuItems = 2
+  showMenuItems = 6
   fullWidthTheme = false
   centerTheme = true
   autoCover = true
-  description = "AI agent infrastructure. Built anonymous. Documented open."
+  description = "A studio with no meetings. Distinctive websites, publishing systems, and digital craft for authors, artists, and independent publications."
 
 [params.logo]
-  logoText = "loopwright"
+  logoText = "infinave"
   logoHomeLink = "/blog/"
 
 [menu]
   [[menu.main]]
+    identifier = "work"
+    name = "work"
+    url = "/work"
+    weight = 1
+  [[menu.main]]
+    identifier = "services"
+    name = "services"
+    url = "/services"
+    weight = 2
+  [[menu.main]]
+    identifier = "start"
+    name = "start a project"
+    url = "/start-a-project"
+    weight = 3
+  [[menu.main]]
+    identifier = "journal"
+    name = "journal"
+    url = "/posts"
+    weight = 4
+  [[menu.main]]
+    identifier = "opensource"
+    name = "open source"
+    url = "/open-source"
+    weight = 5
+  [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about"
-    weight = 1
-  [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    url = "/posts"
-    weight = 2
+    weight = 6
 
 [outputs]
   home = ["HTML", "RSS"]

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Nox &amp;mdash; Architecture for a Literary House :: infinave</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How infinave designed and engineered an uncompromising, privacy-clean publishing house catalogue for multiple author imprints." />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://loopwright.github.io/blog/work/nox/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="https://loopwright.github.io/blog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="https://loopwright.github.io/blog/favicon.png">
+<link rel="apple-touch-icon" href="https://loopwright.github.io/blog/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Nox &amp;mdash; Architecture for a Literary House">
+<meta property="og:description" content="How infinave designed and engineered an uncompromising, privacy-clean publishing house catalogue for multiple author imprints." />
+<meta property="og:url" content="https://loopwright.github.io/blog/work/nox/" />
+<meta property="og:site_name" content="infinave" />
+
+  <meta property="og:image" content="https://loopwright.github.io/blog/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-10-08 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<link rel="icon" type="image/x-icon" href="https://loopwright.github.io/blog/favicon.ico">
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/blog/">
+  <div class="logo" style="display: flex; align-items: center; gap: 8px;">
+    <img src="/blog/logo.webp" alt="infinave" style="height: 28px; width: 28px; display: inline; margin: 0; border: none; padding: 0; border-radius: 0;">
+    infinave
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/blog/work">work</a></li>
+        
+      
+        
+          <li><a href="/blog/services">services</a></li>
+        
+      
+        
+          <li><a href="/blog/start-a-project">start a project</a></li>
+        
+      
+        
+          <li><a href="/blog/posts">journal</a></li>
+        
+      
+        
+          <li><a href="/blog/open-source">open source</a></li>
+        
+      
+        
+          <li><a href="/blog/about">about</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/blog/work" >work</a></li>
+        
+      
+        
+          <li><a href="/blog/services" >services</a></li>
+        
+      
+        
+          <li><a href="/blog/start-a-project" >start a project</a></li>
+        
+      
+        
+          <li><a href="/blog/posts" >journal</a></li>
+        
+      
+        
+          <li><a href="/blog/open-source" >open source</a></li>
+        
+      
+        
+          <li><a href="/blog/about" >about</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://loopwright.github.io/blog/work/nox/">Nox — Architecture for a Literary House</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-10-08</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="nox-architecture-for-a-literary-house">Nox: Architecture for a Literary House<a href="#nox-architecture-for-a-literary-house" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Website:</strong> <a href="https://www.arxnox.com">arxnox.com</a><br>
+<strong>Role:</strong> Design, Information Architecture, Static Engineering<br>
+<strong>Stack:</strong> Bespoke Hugo architecture, Markdown ledger, Custom RSS feeds, Zero runtime dependencies</p>
+<hr>
+<h3 id="the-visual-problem">The Visual Problem<a href="#the-visual-problem" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Nox is the central publishing house representing several distinct writing voices and genres. Most multi-author or publishing websites resemble cluttered ecommerce stores or generic blog feeds: rotating hero banners, newsletter popups, cookie consent overlays, and complex content management systems that slow down page delivery.</p>
+<p>The directive for Nox required the opposite:</p>
+<ul>
+<li>The feeling of an austere, private archival library or monastic ledger.</li>
+<li>Clean separation across multiple author imprints without fragmenting the house identity.</li>
+<li>Extreme reading comfort with high typographic contrast.</li>
+<li>Zero maintenance overhead and zero third-party surveillance scripts.</li>
+</ul>
+<hr>
+<h3 id="design-approach">Design Approach<a href="#design-approach" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>We stripped away all conventional marketing chrome:</p>
+<ol>
+<li><strong>Typographic Brutalism:</strong> Monochromatic palette (deep black, crisp off-white, subtle slate lines) with strict hierarchy. The type does all the visual work.</li>
+<li><strong>Ledger Structure:</strong> Content is organized into a formal <code>catalogue</code> and chronological <code>ledger</code>. Each book, imprint, and dispatch sits within an orderly, structured taxonomy.</li>
+<li><strong>Restrained Motion &amp; Zero Bloat:</strong> No external JavaScript frameworks, no heavy slider libraries. Page transitions are instant, and documents render natively.</li>
+</ol>
+<hr>
+<h3 id="technical--privacy-decisions">Technical &amp; Privacy Decisions<a href="#technical--privacy-decisions" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li><strong>Direct Markdown Mounts:</strong> Nox mounts its publishing ledger directly from local markdown records. When an entry is approved, the site builds statically in milliseconds.</li>
+<li><strong>Custom House Feeds:</strong> Rather than relying on third-party feed aggregators, we implemented custom XML output formats (<code>HouseFeed</code>) that syndicate publications cleanly to readers.</li>
+<li><strong>Absolute Privacy Default:</strong> Zero trackers, zero analytics pixels, zero CDN font queries. Fonts and assets are served directly from the hosting origin.</li>
+<li><strong>Full Ownership:</strong> The entire house catalogue exists as plain Markdown files and Git version history. It cannot be locked into or retired by a proprietary CMS platform.</li>
+</ul>
+<hr>
+<p><a href="/work/">Back to Work</a> · <a href="/start-a-project/">Commission a publication system</a></p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/blog/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

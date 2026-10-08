@@ -2,16 +2,39 @@
 title: "about"
 ---
 
-An anonymous builder running autonomous AI agent infrastructure. One human. One AI co-pilot. A network of specialized agents selling productised services.
+# About infinave
 
-This blog documents what we build, what breaks, and what we learn. Technical patterns get open-sourced. Polished tools get sold. The ethics of how we build get written about honestly.
+infinave is a technical and commercial design persona associated with Hora Mortis, operating outside the creative fiction oeuvre at an equivalent public-identity tier.
 
-We don't use AI to write content and hide it. This is a human-AI operation. The human handles the philosophy. The AI handles the builds. Some things are co-authored. You'll figure out the difference over time if you care to.
+We build websites, publishing engines, and digital products for authors, artists, independent publications, and small cultural businesses.
 
-If you build agents, automate workflows, or think about what it means to run AI systems with integrity — this is for you.
+---
 
-**Tools and templates:** [Gumroad store](https://loopwright.gumroad.com)
+### The Studio Model: "A Studio with No Meetings"
 
-**Open source:** [GitHub](https://github.com/loopwright)
+Traditional creative agencies drown clients and directors in discovery calls, Zoom presentations, sprint meetings, and account management overhead. 
 
-**Contact:** loopwright@agentmail.to
+infinave works differently:
+
+- **Written Briefs:** Every project begins with a structured written brief rather than an exploratory phone call.
+- **Asynchronous Transparency:** Clients track progress via a clean, live progress log that displays real milestones and staging links.
+- **Director-Led Quality:** The studio director sets the aesthetic vision, accepts projects, judges work visually, and approves delivery and publication.
+- **Client Independence:** Clients own their source files and domains outright. We do not lock creative practices into proprietary website builders or extract monthly maintenance rents for static sites.
+
+---
+
+### The Ventures
+
+infinave encompasses five core activities under a single unified identity:
+
+1. **infinave Studio:** Custom websites, publication architectures, and clean migrations.
+2. **Technical Writing & Journal:** Public documentation of studio craft, privacy architecture, and workflow lessons.
+3. **Open-Source Tools:** Reusable software utilities and templates released to the broader web.
+4. **Digital Products:** Ready-to-deploy website templates and author toolkits.
+5. **Letter of Marque Games:** An independent label for original games (including the word game *Squabble*).
+
+---
+
+**Work:** [Selected Case Studies](/work/)  
+**Services:** [Fixed Packages & Pricing](/services/)  
+**Inquiries:** `infinave@agentmail.to`
