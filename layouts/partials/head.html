@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    /* House convention (shared with the Nox sites): dark by default, remembered choice in 'pref-theme'. */
+    try { if (localStorage.getItem('pref-theme') === 'light') document.documentElement.dataset.theme = 'light'; } catch (e) {}
+  </script>
+  {{- $title := cond .IsHome site.Title (printf "%s · %s" .Title site.Title) }}
+  {{- $desc := or .Description .Params.summary site.Params.description }}
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc | plainify }}">
+  <meta name="author" content="{{ site.Params.author }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">
+  {{- end }}
+  {{- if not hugo.IsProduction }}<meta name="robots" content="noindex">{{ end }}
+
+  <!-- favicons: suteo brand package v1.1 -->
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="48x48">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+  <link rel="icon" href="{{ "favicon-32x32.png" | relURL }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ "favicon-16x16.png" | relURL }}" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+  <meta name="theme-color" content="#0B0A09">
+
+  <!-- social cards -->
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:type" content="{{ if and .IsPage (eq .Section "posts") }}article{{ else }}website{{ end }}">
+  <meta property="og:title" content="{{ cond .IsHome site.Title .Title }}">
+  <meta property="og:description" content="{{ $desc | plainify }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ "img/suteo-og.png" | absURL }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="suteo">
+  {{- if and .IsPage (eq .Section "posts") }}
+  <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end }}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ cond .IsHome site.Title .Title }}">
+  <meta name="twitter:description" content="{{ $desc | plainify }}">
+  <meta name="twitter:image" content="{{ "img/suteo-og.png" | absURL }}">
+
+  {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+</head>

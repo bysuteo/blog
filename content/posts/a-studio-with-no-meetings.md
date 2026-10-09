@@ -3,6 +3,7 @@ title: "A Studio with No Meetings: The Anatomy of Asynchronous Web Engineering"
 date: 2026-10-08
 description: "How loopwright delivers bespoke websites for authors and artists through structured briefs, live progress logs, and zero discovery calls."
 tags: ["studio", "engineering", "workflow", "privacy"]
+draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 
 Most web projects do not fail in the code. They fail in the meetings.

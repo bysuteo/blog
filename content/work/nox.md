@@ -1,46 +1,34 @@
 ---
-title: "Nox &mdash; Architecture for a Literary House"
-date: 2026-10-08
-description: "How loopwright designed and engineered an uncompromising, privacy-clean publishing house catalogue for multiple author imprints."
+slug: "nox"
+title: "The Nox house"
+summary: "Six websites for one author's several names, and the machinery that keeps them in step."
+kind: "Publishing system"
+period: "2026–"
+status: "Live"
+group: "For the house"
+weight: 10
+featured: true
+date: 2026-10-09
+stack: ["Hugo", "custom themes", "IPFS hosting via 4EVERLAND", "shell and Python tooling"]
+links:
+  - label: "arxnox.com"
+    url: "https://www.arxnox.com/"
 ---
 
-# Nox: Architecture for a Literary House
+Nox is one author writing under several names. Each name has its own site and its own design: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). The house itself lives at [arxnox.com](https://www.arxnox.com/), a catalogue that gathers what the names publish. All six are built and maintained here.
 
-**Website:** [arxnox.com](https://www.arxnox.com)  
-**Role:** Design, Information Architecture, Static Engineering  
-**Stack:** Bespoke Hugo architecture, Markdown ledger, Custom RSS feeds, Zero runtime dependencies  
+### One source for the writing
 
----
+Manuscripts do not live in the website repositories. They live in the writer's vault, and each site reads them through symlinks and Hugo module mounts. The site repositories hold the design and the build; the words have a single source of truth, and an edit in the vault is an edit everywhere it appears.
 
-### The Visual Problem
+### A house feed that only moves when something changes
 
-Nox is the central publishing house representing several distinct writing voices and genres. Most multi-author or publishing websites resemble cluttered ecommerce stores or generic blog feeds: rotating hero banners, newsletter popups, cookie consent overlays, and complex content management systems that slow down page delivery.
+After a successful publish, each name's site emits a small index of what it has published. The house compares that index with the copy it last saw. If nothing has changed, nothing happens. If something has, the catalogue rebuilds once, in a queue, so two names publishing on the same afternoon cannot trip over each other. Every newly published address is also handed on for a draft announcement — drafted, not posted; a person still decides.
 
-The directive for Nox required the opposite:
-- The feeling of an austere, private archival library or monastic ledger.
-- Clean separation across multiple author imprints without fragmenting the house identity.
-- Extreme reading comfort with high typographic contrast.
-- Zero maintenance overhead and zero third-party surveillance scripts.
+### Deploys that tell the truth
 
----
+The sites are static files served over IPFS. The hosting gateway has a habit of dropping the connection after an upload has gone through but before it confirms, which looks exactly like a failure. The deploy script treats that as *unconfirmed* rather than *failed*: it captures what it can, parses defensively and retries with backoff, instead of reporting a false alarm or giving up on a deploy that worked.
 
-### Design Approach
+### House standards
 
-We stripped away all conventional marketing chrome:
-
-1. **Typographic Brutalism:** Monochromatic palette (deep black, crisp off-white, subtle slate lines) with strict hierarchy. The type does all the visual work.
-2. **Ledger Structure:** Content is organized into a formal `catalogue` and chronological `ledger`. Each book, imprint, and dispatch sits within an orderly, structured taxonomy.
-3. **Restrained Motion & Zero Bloat:** No external JavaScript frameworks, no heavy slider libraries. Page transitions are instant, and documents render natively.
-
----
-
-### Technical & Privacy Decisions
-
-- **Direct Markdown Mounts:** Nox mounts its publishing ledger directly from local markdown records. When an entry is approved, the site builds statically in milliseconds.
-- **Custom House Feeds:** Rather than relying on third-party feed aggregators, we implemented custom XML output formats (`HouseFeed`) that syndicate publications cleanly to readers.
-- **Absolute Privacy Default:** Zero trackers, zero analytics pixels, zero CDN font queries. Fonts and assets are served directly from the hosting origin.
-- **Full Ownership:** The entire house catalogue exists as plain Markdown files and Git version history. It cannot be locked into or retired by a proprietary CMS platform.
-
----
-
-[Back to Work](/blog/work/) &middot; [Commission a publication system](/blog/start-a-project/)
+Every site in the house has a light and a dark mode, the same reading controls (text size, back to top), images capped by height so portrait and square works sit at the same scale, and no analytics, trackers or third-party fonts.

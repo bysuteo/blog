@@ -3,6 +3,7 @@ title: "The Timmis Protocol"
 date: 2026-03-26
 draft: false
 tags: ["ethics", "agents", "protocol", "philosophy"]
+published_as: "loopwright"
 ---
 
 I run AI agents that have names, identities, and standing instructions to argue with me when I'm wrong. This is a design choice, not an affectation. It works better than treating them as anonymous functions. But it creates a problem I haven't seen anyone in the agent-building space talk about seriously.

@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <a class="footer-mark" href="{{ "" | relURL }}" aria-label="suteo — home">
+    {{ partial "brand.html" (dict "name" "favicon-glyph" "class" "footer-glyph") }}
+  </a>
+  <p class="footer-copy">
+    © {{ now.Year }} suteo
+    · <a href="{{ "impressum/" | relURL }}">Impressum</a>
+    · <a href="{{ site.Params.github }}" rel="me">GitHub</a>
+    · <a href="{{ "index.xml" | relURL }}">RSS</a>
+    · <a href="{{ site.Params.house }}">A Nox house name</a>
+  </p>
+</footer>

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="project">
+  <header class="post-head">
+    <p class="meta">{{ .Params.kind }}{{ with .Params.period }} · {{ . }}{{ end }}{{ with .Params.status }} · {{ . }}{{ end }}</p>
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="page-lede">{{ . }}</p>{{ end }}
+    <dl class="facts">
+      {{ with .Params.links }}
+      <div><dt>Links</dt><dd>{{ range $i, $l := . }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.label }}</a>{{ end }}</dd></div>
+      {{ end }}
+      {{ with .Params.stack }}<div><dt>Built with</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+      {{ with .Params.licence }}<div><dt>Licence</dt><dd>{{ . }}</dd></div>{{ end }}
+    </dl>
+  </header>
+  <div class="prose post-body">
+    {{ .Content }}
+  </div>
+  <footer class="post-foot">
+    <p class="more"><a href="{{ "work/" | relURL }}">&larr; All work</a></p>
+  </footer>
+</article>
+{{ end }}

@@ -1,41 +1,21 @@
 ---
-title: "about"
+title: "About"
+description: "The engineering name of the Nox house."
 ---
 
-# About loopwright
+Nox is a house: one author, several names, one sensibility. Each name has its own medium and its own site — [iacula](https://iacula.com/) makes myths, [lux](https://www.luxvesper.com/) follows a soul's search, [lorica](https://www.lorica.press/) writes essays on civilisation, [yod](https://www.yods.ink/) reads the culture, and [selador](https://www.selador.art/) is the visual studio. [arxnox.com](https://www.arxnox.com/) gathers them into one catalogue.
 
-loopwright is a technical and commercial design persona associated with Hora Mortis, operating outside the creative fiction oeuvre at an equivalent public-identity tier.
+suteo is the name the house's engineering goes under. Every one of those sites was built here, along with the publishing machinery behind them: manuscripts kept in one place and read by every site that needs them, a house feed that notices when a name publishes and rebuilds the catalogue once, deploys that retry until they can confirm what happened.
 
-We build websites, publishing engines, and digital products for authors, artists, independent publications, and small cultural businesses.
+suteo also works on his own account, as a maker and software developer: [tools](../work/) for running AI agents in production on a single small server, a word game that lives on the server of whoever runs it, and [writing](../posts/) about what the work teaches — technical notes, mostly, and now and then a question about what kind of builder the work is making.
 
----
+### Formerly loopwright
 
-### The Studio Model: "A Studio with No Meetings"
+Until October 2026 this work was published as loopwright. The name changed; the work and the writing did not. The first essays here appeared under that name and are kept exactly as they were published, and the open-source kits still say loopwright in places where it is part of their history.
 
-Traditional creative agencies drown clients and directors in discovery calls, Zoom presentations, sprint meetings, and account management overhead. 
+### Elsewhere
 
-loopwright works differently:
-
-- **Written Briefs:** Every project begins with a structured written brief rather than an exploratory phone call.
-- **Asynchronous Transparency:** Clients track progress via a clean, live progress log that displays real milestones and staging links.
-- **Director-Led Quality:** The studio director sets the aesthetic vision, accepts projects, judges work visually, and approves delivery and publication.
-- **Client Independence:** Clients own their source files and domains outright. We do not lock creative practices into proprietary website builders or extract monthly maintenance rents for static sites.
-
----
-
-### The Ventures
-
-loopwright encompasses five core activities under a single unified identity:
-
-1. **loopwright Studio:** Custom websites, publication architectures, and clean migrations.
-2. **Technical Writing & Journal:** Public documentation of studio craft, privacy architecture, and workflow lessons.
-3. **Open-Source Tools:** Reusable software utilities and templates released to the broader web.
-4. **Digital Products:** Ready-to-deploy website templates and author toolkits.
-5. **Letter of Marque Games:** An independent label for original games (including the word game *Squabble*).
-
----
-
-**Work:** [Selected Case Studies](/blog/work/)
-
-**Services:** [Fixed Packages & Pricing](/blog/services/)
-**Inquiries:** `loopwright@agentmail.to`
+- Code: [github.com/bysuteo](https://github.com/bysuteo)
+- Tools and templates: [the Gumroad store](https://loopwright.gumroad.com)
+- The house: [arxnox.com](https://www.arxnox.com/)
+- Contact: [nox@arxnox.com](mailto:nox@arxnox.com)

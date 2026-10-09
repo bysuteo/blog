@@ -1,6 +1,7 @@
 ---
 title: "Open Source & Ventures"
 description: "Open-source tools, digital products, and creative ventures by loopwright."
+draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 
 # Open Source, Products &amp; Ventures

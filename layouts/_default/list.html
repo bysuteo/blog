@@ -1,0 +1,10 @@
+{{ define "main" }}
+<header class="page-head">
+  <p class="meta">{{ if eq .Kind "term" }}Tag{{ else }}{{ .Section | humanize }}{{ end }}</p>
+  <h1 class="page-title">{{ .Title }}</h1>
+</header>
+<ul class="post-list">
+  {{ range .Pages.ByDate.Reverse }}{{ partial "post-row.html" . }}{{ end }}
+</ul>
+<p class="more"><a href="{{ "posts/" | relURL }}">&larr; All writing</a></p>
+{{ end }}

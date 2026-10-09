@@ -1,0 +1,21 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ range .Pages.GroupByDate "2006" }}
+<section class="year-group">
+  <h2 class="block-label">{{ .Key }}</h2>
+  <ul class="post-list">
+    {{ range .Pages }}{{ partial "post-row.html" . }}{{ end }}
+  </ul>
+</section>
+{{ end }}
+{{ with site.Taxonomies.tags }}
+<section class="year-group">
+  <h2 class="block-label">Tags</h2>
+  <p class="tag-cloud">{{ range .ByCount }}<a class="tag-pill" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> {{ end }}</p>
+</section>
+{{ end }}
+{{ end }}

@@ -1,54 +1,51 @@
-baseURL = "https://loopwright.github.io/blog/"
-languageCode = "en-us"
-title = "loopwright"
-theme = "terminal"
+baseURL = "https://suteo.dev/"
+languageCode = "en-gb"
+title = "suteo"
+enableRobotsTXT = true
+# The site is self-contained: custom layouts in /layouts, no theme dependency.
 
 [params]
-  themeColor = "orange"
-  showMenuItems = 6
-  fullWidthTheme = false
-  centerTheme = true
-  autoCover = true
-  description = "A studio with no meetings. Distinctive websites, publishing systems, and digital craft for authors, artists, and independent publications."
+  description = "suteo — the engineering name of the Nox house. Tools, websites and systems, and notes on building them."
+  tagline = "A workshop for durable software."
+  author = "suteo"
+  github = "https://github.com/bysuteo"
+  store = "https://loopwright.gumroad.com"
+  house = "https://www.arxnox.com/"
+  # Until a suteo mailbox exists, enquiries go to the house address.
+  email = "nox@arxnox.com"
 
-[params.logo]
-  logoText = "loopwright"
-  logoHomeLink = "/blog/"
+[taxonomies]
+  tag = "tags"
 
-[menu]
-  [[menu.main]]
-    identifier = "work"
-    name = "work"
-    url = "/work"
-    weight = 1
-  [[menu.main]]
-    identifier = "services"
-    name = "services"
-    url = "/services"
-    weight = 2
-  [[menu.main]]
-    identifier = "start"
-    name = "start a project"
-    url = "/start-a-project"
-    weight = 3
-  [[menu.main]]
-    identifier = "journal"
-    name = "journal"
-    url = "/posts"
-    weight = 4
-  [[menu.main]]
-    identifier = "opensource"
-    name = "open source"
-    url = "/open-source"
-    weight = 5
-  [[menu.main]]
-    identifier = "about"
-    name = "about"
-    url = "/about"
-    weight = 6
+# Writing keeps the URLs it was first published under (/posts/<slug>/),
+# so links to the Loopwright-era essays keep working after the move.
+[permalinks]
+  posts = "/posts/:slug/"
+  work = "/work/:slug/"
 
 [outputs]
   home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[menus]
+  [[menus.main]]
+    name = "Work"
+    pageRef = "/work"
+    weight = 1
+  [[menus.main]]
+    name = "Writing"
+    pageRef = "/posts"
+    weight = 2
+  [[menus.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 3
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[sitemap]
+  changefreq = "monthly"

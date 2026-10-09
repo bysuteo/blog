@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en-GB" data-theme="dark">
+{{ partial "head.html" . }}
+<body class="{{ if .IsHome }}is-home{{ else }}is-{{ .Section | default "page" }}{{ end }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "header.html" . }}
+  <main id="main" class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "reader-controls.html" . }}
+</body>
+</html>

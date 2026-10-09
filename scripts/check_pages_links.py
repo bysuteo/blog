@@ -32,7 +32,8 @@ def main() -> int:
     args = parser.parse_args()
 
     root = args.public_dir.resolve()
-    base = "/" + args.base_path.strip("/") + "/"
+    stripped = args.base_path.strip("/")
+    base = f"/{stripped}/" if stripped else "/"
     failures: list[str] = []
 
     for page in root.rglob("*.html"):
@@ -46,7 +47,7 @@ def main() -> int:
             path = split.path
             if not path.startswith("/"):
                 continue
-            if path == base.rstrip("/"):
+            if base != "/" and path == base.rstrip("/"):
                 path = base
             if not path.startswith(base):
                 failures.append(f"{source}: escapes {base}: {raw_link}")

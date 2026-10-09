@@ -31,7 +31,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
       - name: Setup Pages
         id: pages
@@ -47,7 +46,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Check GitHub Pages links
-        run: python3 scripts/check_pages_links.py public /blog/
+        run: python3 scripts/check_pages_links.py public "${{ steps.pages.outputs.base_path }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

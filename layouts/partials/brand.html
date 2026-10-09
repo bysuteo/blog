@@ -1,0 +1,17 @@
+{{- /*
+  Inline a canonical suteo vector master from assets/brand/ (brand package v1.1).
+  Geometry is untouched; only the fill becomes currentColor so the mark follows the
+  theme (old gold on near-black, ink on paper — the package's mono variant).
+  Usage: partial "brand.html" (dict "name" "horizontal-lockup" "class" "logo-desktop")
+*/ -}}
+{{- $r := resources.Get (printf "brand/suteo-%s.svg" .name) -}}
+{{- with $r -}}
+  {{- $s := .Content -}}
+  {{- $s = replaceRE `<title[^>]*>.*?</title>\s*` "" $s -}}
+  {{- $s = replaceRE `<desc>.*?</desc>\s*` "" $s -}}
+  {{- $s = replace $s `role="img" aria-labelledby="title"` (printf `class="brand-svg %s" aria-hidden="true" focusable="false"` ($.class | default "")) -}}
+  {{- $s = replace $s `fill="#DBA958"` `fill="currentColor"` -}}
+  {{- $s = replaceRE `\sid="[^"]*"` "" $s -}}
+  {{- $s = replaceRE `\swidth="[\d.]+" height="[\d.]+"` "" $s -}}
+  {{- $s | safeHTML -}}
+{{- end -}}

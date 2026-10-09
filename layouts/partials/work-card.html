@@ -1,0 +1,7 @@
+<li class="work-card">
+  <a class="work-card-link" href="{{ .RelPermalink }}">
+    <span class="meta">{{ .Params.kind }}{{ with .Params.period }} · {{ . }}{{ end }}</span>
+    <span class="work-card-title">{{ .Title }}</span>
+    <span class="work-card-summary">{{ .Params.summary }}</span>
+  </a>
+</li>

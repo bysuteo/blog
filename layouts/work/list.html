@@ -1,0 +1,19 @@
+{{ define "main" }}
+<header class="page-head">
+  <h1 class="page-title">{{ .Title }}</h1>
+  {{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}
+</header>
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ $pages := .Pages }}
+{{ range slice "For the house" "Tools" "Games" }}
+  {{ $g := where $pages "Params.group" . }}
+  {{ with $g }}
+<section class="block block-wide">
+  <h2 class="block-label">{{ (index . 0).Params.group }}</h2>
+  <ul class="work-grid">
+    {{ range .ByWeight }}{{ partial "work-card.html" . }}{{ end }}
+  </ul>
+</section>
+  {{ end }}
+{{ end }}
+{{ end }}

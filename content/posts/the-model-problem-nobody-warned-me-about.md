@@ -3,6 +3,7 @@ title: "The Model Problem Nobody Warned Me About"
 date: 2026-04-05
 draft: false
 tags: ["models", "agents"]
+published_as: "loopwright"
 ---
 Picking a model used to be simple. Bigger is better, newer is better, benchmark wins mean production wins. That's not how it works when you're actually running something.
 

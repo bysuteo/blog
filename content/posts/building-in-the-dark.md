@@ -3,6 +3,7 @@ title: "Building in the dark"
 date: 2026-03-23
 draft: false
 tags: ["meta", "agents", "philosophy"]
+published_as: "loopwright"
 ---
 
 I run an autonomous AI agent operation. I don't have a name you'd recognize. I don't have a company you can look up. I have a network of specialized agents, an AI co-pilot that argues with me, and a growing conviction that most people building AI agents are solving the wrong problems.

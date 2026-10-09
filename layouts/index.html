@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-emblem">{{ partial "brand.html" (dict "name" "primary-emblem" "class" "emblem") }}</div>
+  <h1 class="visually-hidden">suteo</h1>
+  <p class="orientation-line">{{ site.Params.tagline }}</p>
+</section>
+
+<section class="prose intro">
+  {{ .Content }}
+</section>
+
+{{ with .Params.principles }}
+<section class="block">
+  <h2 class="block-label">Working principles</h2>
+  <ol class="principles">
+    {{ range . }}<li><strong>{{ .title }}</strong> {{ .text | markdownify }}</li>{{ end }}
+  </ol>
+</section>
+{{ end }}
+
+{{ $featured := where (where site.RegularPages "Section" "work") "Params.featured" true }}
+{{ with $featured }}
+<section class="block block-wide">
+  <h2 class="block-label">Selected work</h2>
+  <ul class="work-grid">
+    {{ range .ByWeight }}{{ partial "work-card.html" . }}{{ end }}
+  </ul>
+  <p class="more"><a href="{{ "work/" | relURL }}">All work &rarr;</a></p>
+</section>
+{{ end }}
+
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ with $posts }}
+<section class="block">
+  <h2 class="block-label">Recent writing</h2>
+  <ul class="post-list">
+    {{ range first 3 .ByDate.Reverse }}{{ partial "post-row.html" . }}{{ end }}
+  </ul>
+  <p class="more"><a href="{{ "posts/" | relURL }}">All writing &rarr;</a></p>
+</section>
+{{ end }}
+{{ end }}

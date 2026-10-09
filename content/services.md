@@ -1,6 +1,7 @@
 ---
 title: "Services"
 description: "Fixed-price website, publication, and migration packages by loopwright Studio. No meetings, transparent pricing, complete ownership."
+draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 
 # Services &amp; Packages
