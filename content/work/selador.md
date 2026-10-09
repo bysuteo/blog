@@ -38,4 +38,4 @@ The artist behind selador required a digital gallery that functions like a physi
 
 ---
 
-[Back to Work](/work/) &middot; [Commission an artist portfolio](/start-a-project/)
+[Back to Work](/blog/work/) &middot; [Commission an artist portfolio](/blog/start-a-project/)

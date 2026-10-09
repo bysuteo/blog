@@ -1,6 +1,6 @@
 baseURL = "https://loopwright.github.io/blog/"
 languageCode = "en-us"
-title = "infinave"
+title = "loopwright"
 theme = "terminal"
 
 [params]
@@ -12,7 +12,7 @@ theme = "terminal"
   description = "A studio with no meetings. Distinctive websites, publishing systems, and digital craft for authors, artists, and independent publications."
 
 [params.logo]
-  logoText = "infinave"
+  logoText = "loopwright"
   logoHomeLink = "/blog/"
 
 [menu]

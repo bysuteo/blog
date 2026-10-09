@@ -1,7 +1,7 @@
 ---
 title: "A Studio with No Meetings: The Anatomy of Asynchronous Web Engineering"
 date: 2026-10-08
-description: "How infinave delivers bespoke websites for authors and artists through structured briefs, live progress logs, and zero discovery calls."
+description: "How loopwright delivers bespoke websites for authors and artists through structured briefs, live progress logs, and zero discovery calls."
 tags: ["studio", "engineering", "workflow", "privacy"]
 ---
 
@@ -9,7 +9,7 @@ Most web projects do not fail in the code. They fail in the meetings.
 
 A client books an exploratory discovery call. Two weeks later, an account manager presents a slide deck. Three weeks after that, someone schedules a design review to debate colour swatches over a shaky screen share. By the time anyone writes a single line of semantic HTML, the client is exhausted, the agency has burned fifty billable hours on calendar coordination, and the resulting site is stuffed into a proprietary website builder that demands thirty euros a month just to keep the contact form running.
 
-When we founded **infinave Studio**, we eliminated the meeting entirely.
+When we founded **loopwright Studio**, we eliminated the meeting entirely.
 
 Here is the engineering and operational anatomy of how a studio runs on pure asynchronous craft.
 

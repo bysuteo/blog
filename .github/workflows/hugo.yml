@@ -46,6 +46,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Check GitHub Pages links
+        run: python3 scripts/check_pages_links.py public /blog/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

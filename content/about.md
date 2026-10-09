@@ -2,9 +2,9 @@
 title: "about"
 ---
 
-# About infinave
+# About loopwright
 
-infinave is a technical and commercial design persona associated with Hora Mortis, operating outside the creative fiction oeuvre at an equivalent public-identity tier.
+loopwright is a technical and commercial design persona associated with Hora Mortis, operating outside the creative fiction oeuvre at an equivalent public-identity tier.
 
 We build websites, publishing engines, and digital products for authors, artists, independent publications, and small cultural businesses.
 
@@ -14,7 +14,7 @@ We build websites, publishing engines, and digital products for authors, artists
 
 Traditional creative agencies drown clients and directors in discovery calls, Zoom presentations, sprint meetings, and account management overhead. 
 
-infinave works differently:
+loopwright works differently:
 
 - **Written Briefs:** Every project begins with a structured written brief rather than an exploratory phone call.
 - **Asynchronous Transparency:** Clients track progress via a clean, live progress log that displays real milestones and staging links.
@@ -25,9 +25,9 @@ infinave works differently:
 
 ### The Ventures
 
-infinave encompasses five core activities under a single unified identity:
+loopwright encompasses five core activities under a single unified identity:
 
-1. **infinave Studio:** Custom websites, publication architectures, and clean migrations.
+1. **loopwright Studio:** Custom websites, publication architectures, and clean migrations.
 2. **Technical Writing & Journal:** Public documentation of studio craft, privacy architecture, and workflow lessons.
 3. **Open-Source Tools:** Reusable software utilities and templates released to the broader web.
 4. **Digital Products:** Ready-to-deploy website templates and author toolkits.
@@ -35,6 +35,7 @@ infinave encompasses five core activities under a single unified identity:
 
 ---
 
-**Work:** [Selected Case Studies](/work/)  
-**Services:** [Fixed Packages & Pricing](/services/)  
-**Inquiries:** `infinave@agentmail.to`
+**Work:** [Selected Case Studies](/blog/work/)
+
+**Services:** [Fixed Packages & Pricing](/blog/services/)
+**Inquiries:** `loopwright@agentmail.to`

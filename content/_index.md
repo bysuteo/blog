@@ -1,5 +1,5 @@
 ---
-title: "infinave"
+title: "loopwright"
 description: "A studio with no meetings. Distinctive websites, publishing systems, and digital craft for authors, artists, and independent publications."
 ---
 
@@ -15,7 +15,7 @@ You don't need discovery calls, Zoom presentations, or account managers. You nee
 
 Most creative people dread commissioning a website. The process is usually cluttered with discovery calls, bloated proposals, opaque hourly billing, and templates that make an independent press look like an enterprise B2B software company.
 
-infinave operates differently:
+loopwright operates differently:
 
 - **Asynchronous by design:** No meetings, no scheduling links, no check-in calls. The entire project runs on a concise written brief and a clean, live progress log.
 - **Distinct visual taste:** Classical typography, disciplined spacing, and quiet authority. We build tailored homes for books, art, and long-form writing, not neon SaaS landing pages.
@@ -29,11 +29,11 @@ infinave operates differently:
 
 We design and engineer publishing systems, archives, and portfolios:
 
-- **[Nox](/work/nox/)** — A minimalist catalogue and literary publishing house for multiple author imprints. Built on an unadorned typographic hierarchy, custom house RSS feeds, and zero third-party dependencies.
-- **[selador](/work/selador/)** — A digital art gallery and portfolio. High-resolution media presentation on deep slate canvas with zero clutter, zero commission cuts, and zero tracking.
-- **[iacula](/work/iacula/)** — Author platform and world-lore archive for a four-book epic fantasy cycle. Custom dark theme, modular chronicle mounts, and reader-first layout.
+- **[Nox](/blog/work/nox/)** — A minimalist catalogue and literary publishing house for multiple author imprints. Built on an unadorned typographic hierarchy, custom house RSS feeds, and zero third-party dependencies.
+- **[selador](/blog/work/selador/)** — A digital art gallery and portfolio. High-resolution media presentation on deep slate canvas with zero clutter, zero commission cuts, and zero tracking.
+- **[iacula](/blog/work/iacula/)** — Author platform and world-lore archive for a four-book epic fantasy cycle. Custom dark theme, modular chronicle mounts, and reader-first layout.
 
-[Explore all case studies &rarr;](/work/)
+[Explore all case studies &rarr;](/blog/work/)
 
 ---
 
@@ -41,12 +41,12 @@ We design and engineer publishing systems, archives, and portfolios:
 
 Prices are fixed, not hourly.
 
-- **[SITE &middot; &euro;950](/services/#site)** — Up to five bespoke responsive pages, contact routing, search/SEO setup, custom domain launch, source file ownership, and one revision round.
-- **[MIGRATION &middot; &euro;1,450](/services/#migration)** — Migrate an existing Squarespace, Wix, or Webflow site to a clean, fast, independent architecture. Preserves existing URLs and dramatically improves design quality.
-- **[PUBLISHER &middot; &euro;1,950](/services/#publisher)** — Full website, publication engine, newsletter integration, and a practical markdown-first publishing workflow.
-- **[CARE &middot; &sim;&euro;40/month](/services/#care)** — Routine maintenance, dependency care, uptime monitoring, and one small content update per month.
+- **[SITE &middot; &euro;950](/blog/services/#site)** — Up to five bespoke responsive pages, contact routing, search/SEO setup, custom domain launch, source file ownership, and one revision round.
+- **[MIGRATION &middot; &euro;1,450](/blog/services/#migration)** — Migrate an existing Squarespace, Wix, or Webflow site to a clean, fast, independent architecture. Preserves existing URLs and dramatically improves design quality.
+- **[PUBLISHER &middot; &euro;1,950](/blog/services/#publisher)** — Full website, publication engine, newsletter integration, and a practical markdown-first publishing workflow.
+- **[CARE &middot; &sim;&euro;40/month](/blog/services/#care)** — Routine maintenance, dependency care, uptime monitoring, and one small content update per month.
 
-[View full services &amp; scope &rarr;](/services/)
+[View full services &amp; scope &rarr;](/blog/services/)
 
 ---
 
@@ -59,4 +59,4 @@ Prices are fixed, not hourly.
 5. **Preview & one revision round:** You inspect the live staging site. We incorporate your single round of targeted refinements.
 6. **Delivery & handover:** You receive complete source ownership and launch support.
 
-[Start a project &rarr;](/start-a-project/)
+[Start a project &rarr;](/blog/start-a-project/)

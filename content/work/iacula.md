@@ -38,4 +38,4 @@ The brief called for an author platform that speaks from within the world itself
 
 ---
 
-[Back to Work](/work/) &middot; [Commission an author platform](/start-a-project/)
+[Back to Work](/blog/work/) &middot; [Commission an author platform](/blog/start-a-project/)

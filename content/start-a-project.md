@@ -1,6 +1,6 @@
 ---
 title: "Start a Project"
-description: "The structured written brief that replaces the discovery call. Commission your website from infinave Studio."
+description: "The structured written brief that replaces the discovery call. Commission your website from loopwright Studio."
 ---
 
 # Start a Project
@@ -21,7 +21,7 @@ We don't do 45-minute introductory Zoom meetings. The questions below collect on
 
 ### Project Intake Brief
 
-Please review the fields below. You can fill them out and send them directly via email to **`infinave@agentmail.to`** or submit using the brief generator below.
+Please review the fields below. You can fill them out and send them directly via email to **`loopwright@agentmail.to`** or submit using the brief generator below.
 
 #### 1. Identity &amp; Contact
 - **Your Name:**
@@ -59,7 +59,7 @@ Please review the fields below. You can fill them out and send them directly via
 
 Copy the template above, fill in your details, and send directly to:
 
-**&rarr; `infinave@agentmail.to`**
+**&rarr; `loopwright@agentmail.to`**
 
 *What happens next:*  
 1. We review your brief against our standard package parameters within 24 business hours.  

@@ -1,7 +1,7 @@
 ---
 title: "Nox &mdash; Architecture for a Literary House"
 date: 2026-10-08
-description: "How infinave designed and engineered an uncompromising, privacy-clean publishing house catalogue for multiple author imprints."
+description: "How loopwright designed and engineered an uncompromising, privacy-clean publishing house catalogue for multiple author imprints."
 ---
 
 # Nox: Architecture for a Literary House
@@ -43,4 +43,4 @@ We stripped away all conventional marketing chrome:
 
 ---
 
-[Back to Work](/work/) &middot; [Commission a publication system](/start-a-project/)
+[Back to Work](/blog/work/) &middot; [Commission a publication system](/blog/start-a-project/)
