@@ -1,7 +1,18 @@
 <li class="work-card">
   <a class="work-card-link" href="{{ .RelPermalink }}">
-    <span class="meta">{{ .Params.kind }}{{ with .Params.period }} · {{ . }}{{ end }}</span>
-    <span class="work-card-title">{{ .Title }}</span>
-    <span class="work-card-summary">{{ .Params.summary }}</span>
+    <span class="work-card-topline">
+      <span class="project-index meta">{{ printf "%02d" .Weight }}</span>
+      <span class="project-status">{{ .Params.status }}</span>
+    </span>
+    <span class="work-card-body">
+      <span class="meta work-card-kind">{{ .Params.kind }}{{ with .Params.period }} · {{ . }}{{ end }}</span>
+      <span class="work-card-title">{{ .Title }}</span>
+      <span class="work-card-summary">{{ .Params.summary }}</span>
+    </span>
+    {{ with .Params.stack }}
+    <span class="work-card-stack" aria-label="Technology">
+      {{ range first 3 . }}<span>{{ . }}</span>{{ end }}
+    </span>
+    {{ end }}
   </a>
 </li>

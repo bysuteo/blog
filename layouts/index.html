@@ -1,8 +1,23 @@
 {{ define "main" }}
-<section class="hero">
-  <div class="hero-emblem">{{ partial "brand.html" (dict "name" "primary-emblem" "class" "emblem") }}</div>
-  <h1 class="visually-hidden">suteo</h1>
-  <p class="orientation-line">{{ site.Params.tagline }}</p>
+<section class="hero hero-engineering">
+  <div class="hero-mark">
+    <p class="system-kicker"><span>ST / 01</span> Engineering practice</p>
+    <div class="hero-emblem">{{ partial "brand.html" (dict "name" "primary-emblem" "class" "emblem") }}</div>
+  </div>
+  <div class="hero-copy">
+    <p class="orientation-line">{{ site.Params.tagline }}</p>
+    <h1>Systems that remain<br>under your control.</h1>
+    <p class="hero-lede">Websites, publishing infrastructure and small tools built to be understood, owned and maintained.</p>
+    <div class="hero-actions">
+      <a class="text-action" href="{{ "work/" | relURL }}">Examine the work <span aria-hidden="true">&rarr;</span></a>
+      <a class="text-action text-action-muted" href="mailto:{{ site.Params.email }}?subject=suteo%20project%20enquiry">Discuss a project</a>
+    </div>
+  </div>
+  <div class="capability-rail" aria-label="Areas of practice">
+    <div><span class="rail-index">01</span><strong>Publishing systems</strong><small>Source, build and release paths</small></div>
+    <div><span class="rail-index">02</span><strong>Independent websites</strong><small>Fast, quiet and portable</small></div>
+    <div><span class="rail-index">03</span><strong>Small software</strong><small>Useful tools with clear boundaries</small></div>
+  </div>
 </section>
 
 <section class="prose intro">
@@ -28,6 +43,17 @@
   <p class="more"><a href="{{ "work/" | relURL }}">All work &rarr;</a></p>
 </section>
 {{ end }}
+
+<section class="project-enquiry" aria-labelledby="enquiry-title">
+  <div>
+    <p class="block-label">Independent practice</p>
+    <h2 id="enquiry-title">Bring a real constraint.</h2>
+  </div>
+  <div>
+    <p>For enquiries about an independent website, a publishing system or a small self-hosted tool, write with the problem, the people it serves and what must remain under your control. Scope and fit come before any proposal.</p>
+    <a class="text-action" href="mailto:{{ site.Params.email }}?subject=suteo%20project%20enquiry">Start an enquiry <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
 
 {{ $posts := where site.RegularPages "Section" "posts" }}
 {{ with $posts }}

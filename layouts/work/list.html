@@ -4,16 +4,36 @@
   {{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}
 </header>
 {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+<div class="work-register-intro" aria-label="How the practice works">
+  <p class="meta">Practice / 2026</p>
+  <p>Each entry records the purpose, operating state and main materials of the work. The longer notes explain the decisions behind it—especially the parts that keep ownership with the person using it.</p>
+</div>
 {{ $pages := .Pages }}
-{{ range slice "For the house" "Tools" "Games" }}
+{{ range $i, $group := slice "For the house" "Tools" "Games" }}
   {{ $g := where $pages "Params.group" . }}
   {{ with $g }}
-<section class="block block-wide">
-  <h2 class="block-label">{{ (index . 0).Params.group }}</h2>
+<section class="work-register">
+  <header class="register-head">
+    <span class="register-number">{{ printf "%02d" (add $i 1) }}</span>
+    <div>
+      <h2>{{ (index . 0).Params.group }}</h2>
+      <p>{{ if eq $group "For the house" }}The sites and publishing machinery shared by the Nox house.{{ else if eq $group "Tools" }}Portable components and field guides for operating software responsibly.{{ else }}Software built for people to use, not merely to demonstrate.{{ end }}</p>
+    </div>
+  </header>
   <ul class="work-grid">
     {{ range .ByWeight }}{{ partial "work-card.html" . }}{{ end }}
   </ul>
 </section>
   {{ end }}
 {{ end }}
+<section class="project-enquiry project-enquiry-work" aria-labelledby="work-enquiry-title">
+  <div>
+    <p class="block-label">Have a project?</p>
+    <h2 id="work-enquiry-title">Begin with the system, not the sales call.</h2>
+  </div>
+  <div>
+    <p>Send a concise note about the problem, the audience and the constraints. Suteo can then say plainly whether the work fits, what needs clarifying and what a sensible next step would be.</p>
+    <a class="text-action" href="mailto:{{ site.Params.email }}?subject=suteo%20project%20enquiry">Write to suteo <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
 {{ end }}
