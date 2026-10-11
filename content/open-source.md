@@ -1,6 +1,6 @@
 ---
 title: "Open Source & Ventures"
-description: "Open-source tools, digital products, and creative ventures by loopwright."
+description: "Open-source tools, digital products, and creative ventures by suteo."
 draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 
@@ -8,7 +8,7 @@ draft: true  # held back during the suteo migration (studio-era copy) - awaiting
 
 **Craft developed in private. Useful tools documented and released open.**
 
-loopwright operates across several interconnected creative and engineering workshops. When we build infrastructure for ourselves or solve complex editorial problems, we release reusable patterns as open-source software and package polished systems as standalone digital products.
+suteo operates across several interconnected creative and engineering workshops. When the practice builds infrastructure or solves complex editorial problems, it releases reusable patterns as open-source software and packages polished systems as standalone digital products.
 
 ---
 
@@ -34,7 +34,7 @@ For creators who prefer to build independently without hiring a studio:
 
 ### Letter of Marque Games
 
-**Letter of Marque Games** is loopwright's dedicated venture label for independent games and interactive play.
+**Letter of Marque Games** is suteo's related venture label for independent games and interactive play.
 
 - Developed under the same philosophy of focused craftsmanship, high aesthetic discipline, and player respect.
 - **Squabble:** An original fast-paced word game, currently undergoing mobile architecture development toward a dedicated Android release under the Letter of Marque imprint.

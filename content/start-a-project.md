@@ -1,6 +1,6 @@
 ---
 title: "Start a Project"
-description: "The structured written brief that replaces the discovery call. Commission your website from loopwright Studio."
+description: "The structured written brief that replaces the discovery call. Commission your website from suteo."
 draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 

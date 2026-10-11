@@ -1,6 +1,6 @@
 ---
 title: "Services"
-description: "Fixed-price website, publication, and migration packages by loopwright Studio. No meetings, transparent pricing, complete ownership."
+description: "Website, publication, and migration work by suteo. Written briefs, clear scope, complete ownership."
 draft: true  # held back during the suteo migration (studio-era copy) - awaiting the Captain's decision
 ---
 
@@ -57,7 +57,7 @@ We don't bill by the hour, and we don't sell open-ended retainers. You choose a 
 - **Uptime & domain monitoring:** Automated checks ensuring DNS records, SSL certificates, and delivery networks remain healthy.
 - **Dependency & security maintenance:** Routine updates to build scripts and underlying tooling.
 - **Monthly content update:** Includes one small text, link, or image change per calendar month (e.g., updating a festival appearance, adding a book pre-order link, or editing a bio).
-- **No meeting overhead:** Just send a quick written note to loopwright and the change is applied cleanly.
+- **No meeting overhead:** Send a concise written note to suteo and the change is applied cleanly.
 - *(Note: Larger structural changes, redesigns, or additional pages are quoted separately. We do not offer unlimited design edits).*
 
 ---
@@ -81,7 +81,7 @@ To maintain our high standard of craftsmanship, rapid delivery, and fixed prices
 
 ## Our Privacy & Quality Standards
 
-Every website built by loopwright follows strict craftsmanship principles:
+Every website built by suteo follows strict craftsmanship principles:
 
 1. **Zero surveillance:** No Google Analytics, no Meta tracking pixels, no advertising beacons.
 2. **Locally hosted typography:** We do not query Google Fonts or external CDNs on page load. All typefaces are served directly from the hosting origin.
