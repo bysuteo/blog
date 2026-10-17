@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail when a generated project site links outside its Pages base path."""
+"""Fail when generated internal links escape the site root or do not resolve."""
 
 from __future__ import annotations
 
@@ -56,11 +56,11 @@ def main() -> int:
                 failures.append(f"{source}: missing target: {raw_link}")
 
     if failures:
-        print("Broken GitHub Pages links:")
+        print("Broken generated-site links:")
         print("\n".join(failures))
         return 1
 
-    print(f"GitHub Pages links stay under {base} and resolve locally.")
+    print(f"Generated links stay under {base} and resolve locally.")
     return 0
 
 
