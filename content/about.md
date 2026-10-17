@@ -20,4 +20,4 @@ Until October 2026 this work was published as loopwright. The name changed; the 
 - Code: [github.com/bysuteo](https://github.com/bysuteo)
 - Tools and templates: [the Gumroad store](https://loopwright.gumroad.com)
 - The house: [arxnox.com](https://www.arxnox.com/)
-- Contact: [nox@arxnox.com](mailto:nox@arxnox.com)
+- Contact: [hello@suteo.dev](mailto:hello@suteo.dev)

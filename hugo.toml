@@ -11,8 +11,7 @@ enableRobotsTXT = true
   github = "https://github.com/bysuteo"
   store = "https://loopwright.gumroad.com"
   house = "https://www.arxnox.com/"
-  # Until a suteo mailbox exists, enquiries go to the house address.
-  email = "nox@arxnox.com"
+  email = "hello@suteo.dev"
 
 [taxonomies]
   tag = "tags"
