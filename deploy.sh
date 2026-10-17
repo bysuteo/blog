@@ -21,6 +21,9 @@ rm -rf public
 hugo --cleanDestinationDir --minify --panicOnWarning
 python3 scripts/check_site_links.py public /
 
+# Verify the public route through fresh public DNS. The laptop's private DNS
+# path may retain an old hosting answer after an intentional domain cutover.
+PUBLIC_CURL=(curl --http1.1 --doh-url https://cloudflare-dns.com/dns-query)
 CONFIG="$(dirname "$0")/.hostingConfig.json"
 if [ ! -f "$CONFIG" ]; then
   echo "ERROR: missing private 4EVERLAND configuration." >&2
@@ -72,7 +75,7 @@ except Exception:
     if [ -n "$CID" ]; then
       LIVE_OK=0
       for live_attempt in $(seq 1 12); do
-        if curl --http1.1 -fsSIL --max-time 20 'https://suteo.dev/' > "$LIVE_HDRS" \
+        if "${PUBLIC_CURL[@]}" -fsSIL --max-time 20 'https://suteo.dev/' > "$LIVE_HDRS" \
           && python3 scripts/deployment_receipt.py "$LIVE_HDRS" "$CID"; then
           LIVE_OK=1
           break
@@ -94,9 +97,9 @@ except Exception:
         /posts/the-model-problem-nobody-warned-me-about/ \
         /posts/the-timmis-protocol/
       do
-        curl --http1.1 -fsS --max-time 20 "https://suteo.dev$route" -o /dev/null
+        "${PUBLIC_CURL[@]}" -fsS --max-time 20 "https://suteo.dev$route" -o /dev/null
       done
-      if curl --http1.1 -fsS --max-time 20 \
+      if "${PUBLIC_CURL[@]}" -fsS --max-time 20 \
         'https://suteo.dev/posts/a-studio-with-no-meetings/' -o /dev/null; then
         echo "ERROR: the held essay is publicly reachable." >&2
         exit 1
