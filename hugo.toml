@@ -5,7 +5,7 @@ enableRobotsTXT = true
 # The site is self-contained: custom layouts in /layouts, no theme dependency.
 
 [params]
-  description = "suteo — the engineering name of the Nox house. Tools, websites and systems, and notes on building them."
+  description = "suteo — websites, publishing systems and small software, and notes on building them."
   tagline = "A workshop for durable software."
   author = "suteo"
   github = "https://github.com/bysuteo"

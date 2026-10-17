@@ -1,7 +1,7 @@
 ---
 slug: "nox"
-title: "The Nox house"
-summary: "Six websites for one author's several names, and the machinery that keeps them in step."
+title: "Nox"
+summary: "An independent publishing house: its catalogue site, and a site for each name it publishes, built to one set of standards."
 kind: "Publishing system"
 period: "2026–"
 status: "Live"
@@ -15,19 +15,15 @@ links:
     url: "https://www.arxnox.com/"
 ---
 
-Nox is one author writing under several names. Each name has its own site and its own design: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). The house itself lives at [arxnox.com](https://www.arxnox.com/), a catalogue that gathers what the names publish. All six are built and maintained here.
+[Nox](https://www.arxnox.com/) is an independent publishing house. Its catalogue lives at arxnox.com, and each name it publishes has a site of its own, with its own design: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). All six are built and maintained here, and each has its own entry in this register.
 
-### One source for the writing
+### Static, and kept that way
 
-Manuscripts do not live in the website repositories. They live in the writer's vault, and each site reads them through symlinks and Hugo module mounts. The site repositories hold the design and the build; the words have a single source of truth, and an edit in the vault is an edit everywhere it appears.
-
-### A house feed that only moves when something changes
-
-After a successful publish, each name's site emits a small index of what it has published. The house compares that index with the copy it last saw. If nothing has changed, nothing happens. If something has, the catalogue rebuilds once, in a queue, so two names publishing on the same afternoon cannot trip over each other. Every newly published address is also handed on for a draft announcement — drafted, not posted; a person still decides.
+Every site is plain HTML built with Hugo from Markdown and served over IPFS. There is no database, no admin panel and nothing to patch on a Tuesday. The writing is kept apart from the design, so a new essay never has to pass through a website's code to be published. When one of the names publishes, the catalogue updates itself.
 
 ### Deploys that tell the truth
 
-The sites are static files served over IPFS. The hosting gateway has a habit of dropping the connection after an upload has gone through but before it confirms, which looks exactly like a failure. The deploy script treats that as *unconfirmed* rather than *failed*: it captures what it can, parses defensively and retries with backoff, instead of reporting a false alarm or giving up on a deploy that worked.
+The hosting gateway sometimes drops the connection after an upload has gone through but before it confirms, which looks exactly like a failure. The deploy treats that as *unconfirmed* rather than *failed* and checks again, instead of reporting a false alarm or giving up on a deploy that worked.
 
 ### House standards
 

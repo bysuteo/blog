@@ -1,7 +1,7 @@
 ---
 slug: "selador"
 title: "selador"
-summary: "A gallery for a visual studio: collections and standalone works, shown quietly and sold directly."
+summary: "A gallery for a visual studio: collections and standalone works, with nothing between the visitor and the work."
 kind: "Gallery website"
 period: "2026–"
 status: "Live"
@@ -14,8 +14,8 @@ links:
     url: "https://www.selador.art/"
 ---
 
-selador is the house's visual studio. The site is built like a viewing room: the work fills the frame, the interface stays out of the way, and there is nothing following the visitor around — no analytics, no marketplace taking a commission, no feed of other people's work beside it.
+selador is the house's visual studio. The site is built like a viewing room: the work fills the frame, the interface stays out of the way, and nothing follows the visitor around. No analytics, and no feed of other people's work beside it.
 
-Works are organised into collections and standalone pieces. selador's feed to the Nox catalogue is curated on purpose: only dated collections and standalone works travel to the house, never every image inside a collection, so the catalogue announces a new body of work once rather than twelve times.
+Works are organised into collections and standalone pieces. Image height is capped, so portrait and square works hang at the same scale.
 
-Sales go directly through the studio's own shop rather than a gallery platform.
+Works that are for sale link to their listing on Ko-fi, which handles the purchase. The site itself carries no shop.

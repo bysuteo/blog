@@ -1,13 +1,15 @@
 ---
 title: "About"
-description: "The engineering name of the Nox house."
+description: "Who suteo is and what the work covers."
 ---
 
-Nox is a house: one author, several names, one sensibility. Each name has its own medium and its own site — [iacula](https://iacula.com/) makes myths, [lux](https://www.luxvesper.com/) follows a soul's search, [lorica](https://www.lorica.press/) writes essays on civilisation, [yod](https://www.yods.ink/) reads the culture, and [selador](https://www.selador.art/) is the visual studio. [arxnox.com](https://www.arxnox.com/) gathers them into one catalogue.
+suteo is an engineer and a maker of small software. The work is websites, publishing systems and the tools that keep them running, built so that whoever they are for owns them outright.
 
-suteo is the name the house's engineering goes under. Every one of those sites was built here, along with the publishing machinery behind them: manuscripts kept in one place and read by every site that needs them, a house feed that notices when a name publishes and rebuilds the catalogue once, deploys that retry until they can confirm what happened.
+Most of it so far has been for [Nox](https://www.arxnox.com/), an independent publishing house, and the names it publishes: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). suteo built all six sites and keeps them running.
 
-suteo also works on his own account, as a maker and software developer: [tools](../work/) for running AI agents in production on a single small server, a word game that lives on the server of whoever runs it, and [writing](../posts/) about what the work teaches — technical notes, mostly, and now and then a question about what kind of builder the work is making.
+On his own account he makes [tools](../work/) for running AI agents on a single small server, a word game that is in closed testing, and [writes](../posts/) about what the work teaches: technical notes, mostly.
+
+For an independent website or a publishing system, write with the problem and who it is for.
 
 ### Formerly loopwright
 

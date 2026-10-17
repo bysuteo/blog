@@ -8,14 +8,14 @@ status: "Live"
 group: "For the house"
 weight: 20
 date: 2026-10-08
-stack: ["Hugo", "custom theme", "two vault-mounted content sources"]
+stack: ["Hugo", "custom theme", "two content sources"]
 links:
   - label: "iacula.com"
     url: "https://iacula.com/"
 ---
 
-iacula writes *The End of Ages*, an epic fantasy cycle. The site has two jobs that pull in different directions: to be the author's front door — the books, the news, where to read — and to hold entries written from inside the world itself.
+iacula writes *The End of Ages*, an epic fantasy cycle. The site has two jobs that pull in different directions: to be the author's front door (the books, the news, where to read) and to hold entries written from inside the world itself.
 
-The answer is two content sources mounted side by side from the vault. The Chronicler's entries are in-world histories, written in their own voice; the book pages are the author's. Readers see one site. The writing stays where it is written, as plain Markdown, and the site reads it at build time.
+The answer is to keep the two apart in the source and together on the page. The Chronicler's entries are in-world histories, written in their own voice; the book pages are the author's. Readers see one site.
 
 The design is dark by default, with a light mode, a generous reading measure and nothing that interrupts reading: no pop-ups, no floating bars, no tracking.

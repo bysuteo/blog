@@ -1,7 +1,7 @@
 ---
 aliases: ["/page/1/"]
 title: "suteo"
-description: "suteo — the engineering name of the Nox house. Tools, websites and systems, and notes on building them."
+description: "suteo — websites, publishing systems and small software, and notes on building them."
 principles:
   - title: "Own what you can."
     text: "Plain files, static output, source in git. Nothing rented that does not have to be, and nothing a client or a reader can be locked into."
@@ -13,6 +13,6 @@ principles:
     text: "Every system leaves a note explaining how it works and what went wrong. The essays here are the public half of that habit."
 ---
 
-suteo is the engineering name of [Nox](https://www.arxnox.com/), a house in which one author writes under several names. The house's websites, its publishing pipelines and the feeds that join them together are built here.
+suteo builds websites, publishing systems and small software. Most of the work so far has been for [Nox](https://www.arxnox.com/), an independent publishing house: its catalogue site, a site for each name it publishes, and the tooling that builds and releases them.
 
-Outside the house, suteo makes tools of his own: kits for running AI agents on modest infrastructure, a self-hosted word game, and the occasional essay on what building these things asks of the builder.
+The rest is suteo's own: kits for running AI agents on modest infrastructure, a word game in closed testing, and notes on what the work teaches.
