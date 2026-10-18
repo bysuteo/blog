@@ -3,9 +3,6 @@ title: "Systeme, die unter Ihrer Kontrolle bleiben."
 description: "Websites, Publikationssysteme und kleine Software – so gebaut, dass Sie sie verstehen, besitzen und selbst pflegen können."
 url: "/de/"
 lang: "de"
-draft: true  # waiting for a native-speaker proofread before it goes live
-sitemap:
-  disable: true
 ---
 
 ## Was suteo macht
