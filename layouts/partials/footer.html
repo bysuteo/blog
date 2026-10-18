@@ -8,5 +8,9 @@
     · <a href="{{ site.Params.github }}" rel="me">GitHub</a>
     · <a href="{{ "index.xml" | relURL }}">RSS</a>
     · <a href="{{ site.Params.house }}">Engineer to the Nox house</a>
+    {{- with site.GetPage "/de" }}
+    {{- if eq $.RelPermalink .RelPermalink }} · <a href="{{ "" | relURL }}" hreflang="en" lang="en">English</a>
+    {{- else }} · <a href="{{ .RelPermalink }}" hreflang="de" lang="de">Deutsch</a>{{ end }}
+    {{- end }}
   </p>
 </footer>

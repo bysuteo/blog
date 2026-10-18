@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-GB" data-theme="dark">
+<html lang="{{ .Params.lang | default "en-GB" }}" data-theme="dark">
 {{ partial "head.html" . }}
 <body class="{{ if .IsHome }}is-home{{ else }}is-{{ .Section | default "page" }}{{ end }}">
   <a class="skip-link" href="#main">Skip to content</a>
