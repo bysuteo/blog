@@ -1,4 +1,5 @@
 <header class="site-header">
+  <div class="site-bar">
   <a class="site-logo" href="{{ "" | relURL }}" aria-label="suteo — home">
     {{ partial "brand.html" (dict "name" "horizontal-lockup" "class" "logo-wide") }}
     {{ partial "brand.html" (dict "name" "compact-lockup" "class" "logo-compact") }}
@@ -10,8 +11,7 @@
       {{- if and .Page (not $active) $current.Section }}{{ $active = eq $current.Section .Page.Section }}{{ end }}
       <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
     {{- end }}
-    <button class="theme-toggle" type="button" aria-label="Switch between dark and light">
-      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18V3z" fill="currentColor"/><circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-    </button>
+    <button class="theme-toggle" type="button" aria-label="Switch between dark and light"></button>
   </nav>
+  </div>
 </header>
