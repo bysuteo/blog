@@ -22,7 +22,7 @@ Keine Analyse-Tools, keine Tracking-Pixel, keine Schriften von fremden Servern.
 
 ## Arbeitssprache: Englisch
 
-suteo arbeitet von Brandenburg aus, aber auf Englisch. Gespräche, Angebote und Verträge laufen auf Englisch. Ihre erste Nachricht können Sie gern auf Deutsch schreiben.
+suteo arbeitet von Berlin aus, aber auf Englisch. Gespräche, Angebote und Verträge laufen auf Englisch. Ihre erste Nachricht können Sie gern auf Deutsch schreiben.
 
 Schreiben Sie an [hello@suteo.dev](mailto:hello@suteo.dev?subject=suteo%20Anfrage): worum es geht, für wen es ist und was unter Ihrer Kontrolle bleiben soll.
 

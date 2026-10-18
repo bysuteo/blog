@@ -10,5 +10,5 @@ Seecktstr. 7C<br>
 13581 Berlin<br>
 Germany
 <br><br>
-<strong>E-Mail:</strong> <a href="mailto:nox@arxnox.com">nox@arxnox.com</a>
+<strong>E-Mail:</strong> <a href="mailto:hello@suteo.dev">hello@suteo.dev</a>
 </div>
