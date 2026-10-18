@@ -21,7 +21,7 @@
     </div>
   </header>
   <ul class="work-grid">
-    {{ range .ByWeight }}{{ partial "work-card.html" . }}{{ end }}
+    {{ range $i, $p := .ByWeight }}{{ partial "work-card.html" (dict "page" $p "n" (add $i 1)) }}{{ end }}
   </ul>
 </section>
   {{ end }}

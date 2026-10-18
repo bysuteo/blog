@@ -3,8 +3,8 @@
   "short_name": "suteo",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0B0A09",
-  "theme_color": "#0B0A09",
+  "background_color": "#17171a",
+  "theme_color": "#17171a",
   "icons": [
     {"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
     {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},

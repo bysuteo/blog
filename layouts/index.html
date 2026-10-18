@@ -2,6 +2,7 @@
 <section class="hero hero-engineering">
   <div class="hero-mark">
     <div class="hero-emblem">{{ partial "brand.html" (dict "name" "primary-emblem" "class" "emblem") }}</div>
+    <p class="hero-name"><span class="visually-hidden">suteo</span>{{ partial "brand.html" (dict "name" "wordmark" "class" "wordmark") }}</p>
   </div>
   <div class="hero-copy">
     <p class="orientation-line">{{ site.Params.tagline }}</p>
@@ -37,7 +38,7 @@
 <section class="block block-wide">
   <h2 class="block-label">Selected work</h2>
   <ul class="work-grid">
-    {{ range .ByWeight }}{{ partial "work-card.html" . }}{{ end }}
+    {{ range $i, $p := .ByWeight }}{{ partial "work-card.html" (dict "page" $p "n" (add $i 1)) }}{{ end }}
   </ul>
   <p class="more"><a href="{{ "work/" | relURL }}">All work &rarr;</a></p>
 </section>
