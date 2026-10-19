@@ -1,13 +1,13 @@
 ---
 title: "About"
-description: "Who suteo is and what the work covers."
+description: "Websites, publishing systems and small software. What the work covers."
 ---
 
-suteo is an engineer and a maker of small software. The work is websites, publishing systems and the tools that keep them running, built so that whoever they are for owns them outright.
+suteo builds websites, publishing systems and the small tools that keep them running. Whoever the work is for owns it outright.
 
-Most of it so far has been for [Nox](https://www.arxnox.com/), an independent publishing house, and the names it publishes: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). suteo built all six sites and keeps them running.
+Most of it so far has been for [Nox](https://www.arxnox.com/), an independent publishing house, and the names it publishes: [iacula](https://iacula.com/), [lux](https://www.luxvesper.com/), [lorica](https://www.lorica.press/), [yod](https://www.yods.ink/) and [selador](https://www.selador.art/). All six sites were built here and are kept running here.
 
-On his own account he makes [tools](../work/) for running AI agents on a single small server, a word game that is in closed testing, and [writes](../posts/) about what the work teaches: technical notes, mostly.
+Alongside that: [tools](../work/) for running AI agents on a single small server, a word game in closed testing, and [notes](../posts/) on what the work teaches. Technical notes, mostly.
 
 For an independent website or a publishing system, write with the problem and who it is for.
 

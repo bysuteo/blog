@@ -4,6 +4,7 @@
     {{ partial "brand.html" (dict "name" "horizontal-lockup" "class" "logo-wide") }}
     {{ partial "brand.html" (dict "name" "compact-lockup" "class" "logo-compact") }}
   </a>
+  <div class="site-end">
   <nav class="site-nav" aria-label="Main">
     {{- $current := . }}
     {{- range site.Menus.main }}
@@ -11,7 +12,8 @@
       {{- if and .Page (not $active) $current.Section }}{{ $active = eq $current.Section .Page.Section }}{{ end }}
       <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
     {{- end }}
-    <button class="theme-toggle" type="button" aria-label="Switch between dark and light"></button>
   </nav>
+  <button class="theme-toggle" type="button" aria-label="Switch between dark and light"></button>
+  </div>
   </div>
 </header>
