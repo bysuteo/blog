@@ -9,7 +9,7 @@ Most of it so far has been for [Nox](https://www.arxnox.com/), an independent pu
 
 Alongside that: [tools](../work/) for running AI agents on a single small server, a word game in closed testing, and [notes](../posts/) on what the work teaches. Technical notes, mostly.
 
-For an independent website or a publishing system, write with the problem and who it is for.
+For an independent website or a publishing system, write with the problem and who it is for. Writers and publishers can start with [what that work covers](../writers/).
 
 ### Formerly loopwright
 

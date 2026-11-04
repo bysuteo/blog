@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-head">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-lede">{{ . }}</p>{{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ with .Params.enquiry }}
+<section class="project-enquiry" aria-labelledby="service-enquiry-title">
+  <div>
+    <p class="block-label">{{ .label }}</p>
+    <h2 id="service-enquiry-title">{{ .title }}</h2>
+  </div>
+  <div>
+    <p>{{ .text }}</p>
+    <a class="text-action" href="mailto:{{ site.Params.email }}?subject={{ .subject }}">{{ .action }} <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+{{ end }}
+{{ end }}
