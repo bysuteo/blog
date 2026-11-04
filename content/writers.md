@@ -1,12 +1,12 @@
 ---
 title: "Websites for writers and publishers"
-description: "An independent website, a proper archive of published work, or a move off a hosted platform, built so that you own all of it."
+description: "An independent website, a lasting archive of your published work, or a move off a hosted platform, built so that you own all of it."
 url: "/writers/"
 layout: "service"
 enquiry:
   label: "Written enquiry"
   title: "Start with what you publish."
-  text: "Write with what you publish, where it lives now and what you want to change. The reply says plainly whether the work fits and what needs clarifying before a proposal."
+  text: "Write with what you publish, where it lives now and what you want to change. The reply says whether the work fits and what needs clarifying before a proposal."
   subject: "suteo website enquiry"
   action: "Write to suteo"
 ---
@@ -24,16 +24,9 @@ This page is for independent writers, small presses and publications who want a 
 
 ## The work so far
 
-suteo has built, and maintains, six sites for [nox](/work/nox/), an independent publishing house:
+suteo built, and maintains, every site in the Nox house: the catalogue, and a site for each name the house publishes, each with its own design and its own way of arranging the writing. You can see them all on the [work page](/work/).
 
-- [nox](/work/nox/), the house catalogue, which updates itself when one of the names publishes.
-- [iacula](/work/iacula/), an author site that keeps in-world histories apart from the books in the source and shows them together on the page.
-- [lux](/work/lux/), a notebook whose five forms of writing each have a section of their own, rather than sharing one stream of posts.
-- [lorica](/work/lorica/), long essays first, with plain tags for following one thread across the archive.
-- [yod](/work/yod/), the most reduced of the six: one typeface, very little but the text, and every post offered as a feed.
-- [selador](/work/selador/), a gallery whose sales are handled by Ko-fi, so the site itself carries no shop.
-
-The moves so far have been the practice's own. This journal began on another host and under another name. When it moved, the three original essays kept their text, their dates and their addresses, and links to them kept working. No client has yet been moved off a hosted platform, so there is no outside example to show here.
+This site has made the same kind of move. It began on another host and under another name, and when it moved, its first three essays kept their text, their dates and their addresses. Links to them kept working.
 
 ## Moving off a hosted platform
 
@@ -43,7 +36,7 @@ Substack, Ghost, Medium, WordPress.com, Squarespace and similar services make it
 - the old addresses, redirected (sent on automatically) to the new ones wherever the old platform allows it, so links in other people's writing still arrive somewhere;
 - the subscriber list, where the platform lets you export it.
 
-What each platform lets you take out differs, and some of it is the platform's decision rather than yours or suteo's. Paid subscriptions, for example, sit with the platform's payment provider. That is checked against your account before any proposal, and the proposal says plainly what will move and what cannot.
+What each platform lets you take out differs, and some of it is the platform's decision rather than yours or suteo's. Paid subscriptions, for example, sit with the platform's payment provider. That is checked against your account before any proposal, and the proposal sets out what will move and what cannot.
 
 ## What is in scope
 
@@ -57,11 +50,15 @@ Usually included:
 
 Not included, or quoted separately:
 
-- shops, checkouts and paywalls (a site can link to a service that handles sales, as selador does);
+- shops, checkouts and paywalls (a site can link to a service that handles sales);
 - member accounts and logins;
 - writing or editing the copy. The words are yours.
 
-There is no fixed menu or price list. Each project is quoted in writing once its scope is clear.
+## What it costs
+
+As a rough guide, most projects come to between €600 and €1,500. Where a project falls depends mainly on how much existing writing has to be moved and arranged.
+
+Your domain, and any hosting fee, is paid to its provider directly, in your name. Each project is quoted in writing once its scope is clear.
 
 ## How an enquiry works
 
