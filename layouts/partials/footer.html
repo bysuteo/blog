@@ -5,6 +5,9 @@
   <p class="footer-copy">
     © {{ now.Year }} suteo
     · <a href="{{ "impressum/" | relURL }}">Impressum</a>
+    {{- if ne .RelPermalink "/de/" }}
+    · <a href="https://arxnox.com/made/">Made with AI, by a person</a>
+    {{- end }}
     · <a href="{{ site.Params.github }}" rel="me">GitHub</a>
     · <a href="{{ "index.xml" | relURL }}">RSS</a>
     · <a href="{{ site.Params.house }}">Builder to Nox</a>
